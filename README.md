@@ -15,111 +15,78 @@
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge)](https://deps.dev/project/github/flutter%2Fflutter)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
 
-Flutter is Google's SDK for crafting beautiful, fast user experiences for
-mobile, web, and desktop from a single codebase. Flutter works with existing
-code, is used by developers and organizations around the world, and is free and
-open source.
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><a href="https://flutter.dev/" rel="nofollow">
+  </a><h1 align="center" tabindex="-1" dir="auto"><a></a><a id="user-content-----------------------" class="anchor" aria-hidden="true" tabindex="-1" href="#----------------------"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a>
+    <themed-picture data-catalyst-inline="true" data-catalyst=""><picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://camo.githubusercontent.com/8ca355b5c8a6df04ea30294e513b38128c214075013df41d95609ccd1a745c91/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f636d732d73746f726167652d6275636b65742f36653139666565366234376233366361363133662e706e67" data-canonical-src="https://storage.googleapis.com/cms-storage-bucket/6e19fee6b47b36ca613f.png">
+      <img alt="扑" src="https://camo.githubusercontent.com/28924a8cf399c489a5debfdd9e1f50fd4f936faf7defd401a4dcf8c3f5f19008/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f636d732d73746f726167652d6275636b65742f63383233653533623361316137623064333661392e706e67" data-canonical-src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" style="visibility:visible;max-width:100%;">
+    </picture></themed-picture>
+  </h1>
 
-## Documentation
-
-* [Install Flutter](https://flutter.dev/get-started/)
-* [Flutter documentation](https://docs.flutter.dev/)
-* [Development wiki](https://github.com/flutter/flutter/wiki)
-* [Contributing to Flutter](https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md)
-
-For announcements about new releases, follow the
-[flutter-announce@googlegroups.com](https://groups.google.com/forum/#!forum/flutter-announce)
-mailing list. Our documentation also tracks [breaking
-changes](https://docs.flutter.dev/release/breaking-changes) across releases.
-
-## Terms of service
-
-The Flutter tool may occasionally download resources from Google servers. By
-downloading or using the Flutter SDK, you agree to the Google Terms of Service:
-https://policies.google.com/terms
-
-For example, when installed from GitHub (as opposed to from a prepackaged
-archive), the Flutter tool will download the Dart SDK from Google servers
-immediately when first run, as it is used to execute the `flutter` tool itself.
-This will also occur when Flutter is upgraded (e.g. by running the `flutter
-upgrade` command).
-
-## About Flutter
-
-We think Flutter will help you create beautiful, fast apps, with a productive,
-extensible and open development model, whether you're targeting iOS or Android,
-web, Windows, macOS, Linux or embedding it as the UI toolkit for a platform of
-your choice.
-
-### Beautiful user experiences
-
-We want to enable designers to deliver their full creative vision without being
-forced to water it down due to limitations of the underlying framework.
-Flutter's [layered architecture] gives you control over every pixel on the
-screen and its powerful compositing capabilities let you overlay and animate
-graphics, video, text, and controls without limitation. Flutter includes a full
-[set of widgets][widget catalog] that deliver pixel-perfect experiences whether
-you're building for iOS ([Cupertino]) or other platforms ([Material]), along with
-support for customizing or creating entirely new visual components.
-
-<p align="center"><img src="https://github.com/flutter/website/blob/main/src/assets/images/docs/homepage/reflectly-hero-600px.png?raw=true" alt="Reflectly hero image"></p>
-
-### Fast results
-
-Flutter is fast. It's powered by hardware-accelerated 2D graphics
-libraries like [Skia] (that underpins Chrome and Android) and
-[Impeller]. We architected Flutter to
-support glitch-free, jank-free graphics at the native speed of your device.
-
-Flutter code is powered by the world-class [Dart platform], which enables
-compilation to 32-bit and 64-bit ARM machine code for iOS and Android,
-JavaScript and WebAssembly for the web, as well as Intel x64 and ARM
-for desktop devices.
-
-<p align="center"><img src="https://github.com/flutter/website/blob/main/src/assets/images/docs/homepage/dart-diagram-small.png?raw=true" alt="Dart diagram"></p>
-
-### Productive development
-
-Flutter offers [stateful hot reload][Hot reload], allowing you to make changes to your code
-and see the results instantly without restarting your app or losing its state.
-
-[![Hot reload animation][]][Hot reload]
-
-### Extensible and open model
-
-Flutter works with any development tool (or none at all), and also includes
-editor plug-ins for both [Visual Studio Code] and [IntelliJ / Android Studio].
-Flutter provides [tens of thousands of packages][Flutter packages] to speed your
-development, regardless of your target platform. And accessing other native code
-is easy, with support for both FFI ([on Android][Android FFI], [on iOS][iOS FFI],
-[on macOS][macOS FFI], and [on Windows][Windows FFI]) as well as
-[platform-specific APIs][platform channels].
-
-Flutter is a fully open-source project, and we welcome contributions.
-Information on how to get started can be found in our
-[contributor guide](CONTRIBUTING.md).
-
-[flutter.dev]: https://flutter.dev
-[Discord instructions]: https://github.com/flutter/flutter/wiki/Chat
-[Discord badge]: https://img.shields.io/discord/608014603317936148?logo=discord
-[Twitter handle]: https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow
-[Twitter badge]: https://twitter.com/intent/follow?screen_name=flutterdev
-[layered architecture]: https://docs.flutter.dev/resources/inside-flutter
-[architectural overview]: https://docs.flutter.dev/resources/architectural-overview
-[widget catalog]: https://flutter.dev/widgets/
-[Cupertino]: https://docs.flutter.dev/development/ui/widgets/cupertino
-[Material]: https://docs.flutter.dev/development/ui/widgets/material
-[Skia]: https://skia.org/
-[Dart platform]: https://dart.dev/
-[Hot reload animation]: https://github.com/flutter/website/blob/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true
-[Hot reload]: https://docs.flutter.dev/development/tools/hot-reload
-[Visual Studio Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
-[IntelliJ / Android Studio]: https://plugins.jetbrains.com/plugin/9212-flutter
-[Flutter packages]: https://pub.dev/flutter
-[Android FFI]: https://docs.flutter.dev/development/platform-integration/android/c-interop
-[iOS FFI]: https://docs.flutter.dev/development/platform-integration/ios/c-interop
-[macOS FFI]: https://docs.flutter.dev/development/platform-integration/macos/c-interop
-[Windows FFI]: https://docs.flutter.dev/development/platform-integration/windows/building#integrating-with-windows
-[platform channels]: https://docs.flutter.dev/development/platform-integration/platform-channels
-[interop example]: https://github.com/flutter/flutter/tree/master/examples/platform_channel
-[Impeller]: https://docs.flutter.dev/perf/impeller
+<p dir="auto"><a href="https://flutter-dashboard.appspot.com/#/build?repo=flutter" rel="nofollow"><img src="https://camo.githubusercontent.com/1624f895e3d2fb86cfafd3fea6333c51339dd84e13c4c8e002ffbad01f96dcdc/68747470733a2f2f666c75747465722d64617368626f6172642e61707073706f742e636f6d2f6170692f7075626c69632f6275696c642d7374617475732d62616467653f7265706f3d666c7574746572" alt="Flutter CI 状态" data-canonical-src="https://flutter-dashboard.appspot.com/api/public/build-status-badge?repo=flutter" style="max-width: 100%;"></a>
+<a href="https://github.com/flutter/flutter/wiki/Chat"><img src="https://camo.githubusercontent.com/c202b2aa7ebe1d5f5f645277515075100cad68b6bd95437b62fe56e7d331ceac/68747470733a2f2f696d672e736869656c64732e696f2f646973636f72642f3630383031343630333331373933363134383f6c6f676f3d646973636f7264" alt="不和谐徽章" data-canonical-src="https://img.shields.io/discord/608014603317936148?logo=discord" style="max-width: 100%;"></a>
+<a href="https://twitter.com/intent/follow?screen_name=flutterdev" rel="nofollow"><img src="https://camo.githubusercontent.com/a59352c98d0e520f92636349f74bfb449dfdaf7006bdf17a3a3c9532f78e6360/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f666f6c6c6f772f666c75747465726465762e7376673f7374796c653d736f6369616c266c6162656c3d466f6c6c6f77" alt="推特账号" data-canonical-src="https://img.shields.io/twitter/follow/flutterdev.svg?style=social&amp;label=Follow" style="max-width: 100%;"></a>
+<a href="https://codecov.io/gh/flutter/flutter" rel="nofollow"><img src="https://camo.githubusercontent.com/c55d9dd7b5e9e6414a020f81a1bc73853d92f279b7b06f36a59a0822a5ea3b54/68747470733a2f2f636f6465636f762e696f2f67682f666c75747465722f666c75747465722f6272616e63682f6d61737465722f67726170682f62616467652e7376673f746f6b656e3d31317944724a55324d32" alt="代码科夫" data-canonical-src="https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2" style="max-width: 100%;"></a>
+<a href="https://bestpractices.coreinfrastructure.org/projects/5631" rel="nofollow"><img src="https://camo.githubusercontent.com/fe860127005991bd6f2c8376863959127a39098ce458f5d09afc51b72f64a18d/68747470733a2f2f626573747072616374696365732e636f7265696e6672617374727563747572652e6f72672f70726f6a656374732f353633312f6261646765" alt="CII 最佳实践" data-canonical-src="https://bestpractices.coreinfrastructure.org/projects/5631/badge" style="max-width: 100%;"></a>
+<a href="https://deps.dev/project/github/flutter%2Fflutter" rel="nofollow"><img src="https://camo.githubusercontent.com/de18ae95b180483ec54fa6dc5e6ddbeefca36da5ef2badbd25235a2c1945bba5/68747470733a2f2f6170692e736563757269747973636f726563617264732e6465762f70726f6a656374732f6769746875622e636f6d2f666c75747465722f666c75747465722f6261646765" alt="OpenSSF 记分卡" data-canonical-src="https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge" style="max-width: 100%;"></a>
+<a href="https://slsa.dev" rel="nofollow"><img src="https://camo.githubusercontent.com/ad5ef9258c7104c20a25b57eeba84818c308cc204c8bca17bbbb817475e9e3e8/68747470733a2f2f736c73612e6465762f696d616765732f67682d62616467652d6c6576656c312e737667" alt="SLSA 1" data-canonical-src="https://slsa.dev/images/gh-badge-level1.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter 是 Google 的 SDK，用于通过单个代码库为移动、Web 和桌面打造美观、快速的用户体验。 Flutter 可与现有代码配合使用，由世界各地的开发人员和组织使用，并且免费且开源。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<ul dir="auto">
+<li><a href="https://flutter.dev/get-started/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装颤振</font></font></a></li>
+<li><a href="https://docs.flutter.dev/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">颤振文档</font></font></a></li>
+<li><a href="https://github.com/flutter/flutter/wiki"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发维基</font></font></a></li>
+<li><a href="https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为 Flutter 做出贡献</font></font></a></li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关新版本的公告，请关注
+</font></font><a href="https://groups.google.com/forum/#!forum/flutter-announce" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">flutter-announce@googlegroups.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+邮件列表。我们的文档还跟踪各个版本之间的</font></font><a href="https://docs.flutter.dev/release/breaking-changes" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重大更改</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-terms-of-service" class="anchor" aria-hidden="true" tabindex="-1" href="#terms-of-service"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务条款</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter工具有时可能会从Google服务器下载资源。下载或使用 Flutter SDK 即表示您同意 Google 服务条款：
+ https: </font></font><a href="https://policies.google.com/terms" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//policies.google.com/terms</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">例如，当从 GitHub（而不是预先打包的存档）安装时，Flutter 工具将在首次运行时立即从 Google 服务器下载 Dart SDK，因为它用于执行工具</font></font><code>flutter</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">本身。当 Flutter 升级时（例如通过运行</font></font><code>flutter upgrade</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">命令）也会发生这种情况。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-about-flutter" class="anchor" aria-hidden="true" tabindex="-1" href="#about-flutter"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">关于颤动</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们认为 Flutter 将帮助您通过高效、可扩展和开放的开发模型创建美观、快速的应用程序，无论您是针对 iOS 或 Android、Web、Windows、macOS、Linux 还是将其嵌入为您的平台的 UI 工具包选择。</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-beautiful-user-experiences" class="anchor" aria-hidden="true" tabindex="-1" href="#beautiful-user-experiences"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">美好的用户体验</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们希望使设计师能够实现他们完整的创意愿景，而不会因为底层框架的限制而被迫淡化它。 Flutter 的</font></font><a href="https://docs.flutter.dev/resources/inside-flutter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分层架构</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让您可以控制屏幕上的每个像素，其强大的合成功能让您可以不受限制地叠加和制作图形、视频、文本和控件的动画。 Flutter 包含一整套
+</font></font><a href="https://flutter.dev/widgets/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">小部件，无论您是为 iOS ( </font></font></a><font style="vertical-align: inherit;"></font><a href="https://docs.flutter.dev/development/ui/widgets/cupertino" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cupertino</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ) 还是其他平台 ( </font></font><a href="https://docs.flutter.dev/development/ui/widgets/material" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Material</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> )构建，这些小部件都可以提供像素完美的体验</font><font style="vertical-align: inherit;">，并支持自定义或创建全新的视觉组件。</font></font></p>
+<p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/flutter/website/blob/main/src/assets/images/docs/homepage/reflectly-hero-600px.png?raw=true"><img src="https://github.com/flutter/website/raw/main/src/assets/images/docs/homepage/reflectly-hero-600px.png?raw=true" alt="反映英雄形象" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-fast-results" class="anchor" aria-hidden="true" tabindex="-1" href="#fast-results"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速见效</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">颤振速度很快。它由硬件加速的 2D 图形库（如</font></font><a href="https://skia.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Skia</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（支撑 Chrome 和 Android）和
+</font></font><a href="https://docs.flutter.dev/perf/impeller" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Impeller</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ）提供支持。我们将 Flutter 架构为以设备的本机速度支持无故障、无卡顿的图形。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter 代码由世界一流的</font></font><a href="https://dart.dev/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dart 平台</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供支持，可编译为适用于 iOS 和 Android 的 32 位和 64 位 ARM 机器代码、适用于 Web 的 JavaScript 和 WebAssembly，以及适用于桌面设备的 Intel x64 和 ARM。</font></font></p>
+<p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/flutter/website/blob/main/src/assets/images/docs/homepage/dart-diagram-small.png?raw=true"><img src="https://github.com/flutter/website/raw/main/src/assets/images/docs/homepage/dart-diagram-small.png?raw=true" alt="飞镖图" style="max-width: 100%;"></a></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-productive-development" class="anchor" aria-hidden="true" tabindex="-1" href="#productive-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">生产力发展</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter 提供</font></font><a href="https://docs.flutter.dev/development/tools/hot-reload" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有状态热重载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，允许您对代码进行更改并立即查看结果，而无需重新启动应用程序或丢失其状态。</font></font></p>
+<p dir="auto"><animated-image data-catalyst=""><a href="https://docs.flutter.dev/development/tools/hot-reload" rel="nofollow" data-target="animated-image.originalLink"><img src="https://github.com/flutter/website/raw/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true" alt="热重载动画" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
+        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://docs.flutter.dev/development/tools/hot-reload" target="_blank">
+          
+        <span data-target="animated-image.imageContainer">
+            <img data-target="animated-image.replacedImage" alt="热重载动画" class="AnimatedImagePlayer-animatedImage" src="https://github.com/flutter/website/raw/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true" style="display: block; opacity: 1;">
+          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="458"></canvas></span></a>
+        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play Hot reload animation" hidden=""></button>
+        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
+          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play Hot reload animation">
+            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
+            </path></svg>
+            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
+              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
+            </svg>
+          </button>
+          <a data-target="animated-image.openButton" aria-label="在新窗口中打开" class="AnimatedImagePlayer-button" href="https://docs.flutter.dev/development/tools/hot-reload" target="_blank">
+            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
+            </svg>
+          </a>
+        </span>
+      </span></animated-image></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-extensible-and-open-model" class="anchor" aria-hidden="true" tabindex="-1" href="#extensible-and-open-model"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展的开放模型</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter 可与任何开发工具（或根本没有）配合使用，并且还包含适用于Visual Studio Code</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://plugins.jetbrains.com/plugin/9212-flutter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IntelliJ / Android Studio 的</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">编辑器插件</font><font style="vertical-align: inherit;">。 Flutter 提供了</font></font><a href="https://pub.dev/flutter" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数以万计的包</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来加速您的开发，无论您的目标平台是什么。访问其他本机代码也很容易，支持 FFI（</font></font><a href="https://docs.flutter.dev/development/platform-integration/android/c-interop" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Android</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://docs.flutter.dev/development/platform-integration/ios/c-interop" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、
+ </font></font><a href="https://docs.flutter.dev/development/platform-integration/macos/c-interop" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">macOS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://docs.flutter.dev/development/platform-integration/windows/building#integrating-with-windows" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Windows 上</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）以及
+</font></font><a href="https://docs.flutter.dev/development/platform-integration/platform-channels" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特定于平台的 API</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Flutter 是一个完全开源的项目，我们欢迎贡献。有关如何开始的信息可以在我们的</font></font><a href="/flutter/flutter/blob/master/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到
+</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
